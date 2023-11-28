@@ -1,0 +1,91 @@
+/* 
+Layout Design */
+.main{
+    padding: 10px;
+    height: 100vh;
+    /* display: flex; */
+}
+.layout{
+    display: flex;
+}
+.sidebar{
+    min-height: 100%;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(51, 1, 1);
+    box-shadow:  0 0 2px gray;
+    margin-right: 20px;
+    color: beige;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.Header{
+    height: 10vh;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow:  0 0 2px gray;
+}
+.Body{
+    
+    height: 85vh;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow:  0 0 2px gray;
+}
+
+.logo h6{
+    font-size: 1.6rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+.menu{
+    margin-top: 50px;
+}
+.menu-item{
+    margin-top: 30px;
+}
+
+.menu-item a{
+    color: beige;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item i{
+    font-size: 1.2rem;
+    margin: 0 15px;
+}
+
+.active{
+    background-color: white;
+    padding: 10px;
+}
+.active a , .active i{
+    color:rgb(51, 1, 1) ;
+
+}
+
+.header-content{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.header-content i{
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.header-content a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+
